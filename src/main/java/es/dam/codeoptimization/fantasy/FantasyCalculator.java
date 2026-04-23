@@ -14,7 +14,6 @@ public class FantasyCalculator {
     // Method to calculate the points
     public static int calcularFantasyPoints(PlayerStats stats) {
         int fantasyPoints = 0; 
-        int points = 0;
         
         int minutes = stats.minutes;
         int goals = stats.goals;
